@@ -1,0 +1,13 @@
+.Navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color:peachpuff;
+}
+
+.Navbar-link {
+    text-decoration: none;
+    color: chocolate;
+}
