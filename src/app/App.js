@@ -17,11 +17,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/blogs' element={<Blogs />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/layout' element={<Layout />} />
-          <Route path='/*' element={<NoPage />} />
+          <Route path='/route-test' element={<Home />} />
+          <Route path='/route-test/blogs' element={<Blogs />} />
+          <Route path='/route-test/contact' element={<Contact />} />
+          <Route path='/route-test/layout' element={<Layout />} />
+          <Route path='/route-test/*' element={<NoPage />} />
         </Routes>
       </Router>
     </div>

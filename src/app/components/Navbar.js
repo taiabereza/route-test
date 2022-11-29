@@ -8,16 +8,16 @@ const Navbar = () => {
 	return (
 		<>
 			<div className="Navbar">
-				<NavLink className="Navbar-link Navbar-home" to="/">
+				<NavLink className="Navbar-link Navbar-home" to="/route-test">
 					HOME
 				</NavLink>
-				<NavLink className="Navbar-link Navbar-blogs" to="/blogs">
+				<NavLink className="Navbar-link Navbar-blogs" to="/route-test/blogs">
 					BLOGS
 				</NavLink>
-				<NavLink className="Navbar-link Navbar-contact" to="/contact">
+				<NavLink className="Navbar-link Navbar-contact" to="/route-test/contact">
 					CONTACT
 				</NavLink>
-				<NavLink className="Navbar-link Navbar-layout" to="/layout">
+				<NavLink className="Navbar-link Navbar-layout" to="/route-test/layout">
 					LAYOUT
 				</NavLink>
 			</div>
