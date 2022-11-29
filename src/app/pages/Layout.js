@@ -1,6 +1,4 @@
-import React from "react";
-
-const Layout = () => {
+export default function Layout() {
     return (
         <div className="page">
             <h1>
@@ -9,5 +7,3 @@ const Layout = () => {
         </div>
     );
 };
-
-export default Layout;

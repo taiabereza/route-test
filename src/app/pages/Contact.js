@@ -1,7 +1,4 @@
-import React from "react";
-
-
-const Contact = () => {
+export default function Contact() {
     return (
         <div className="page">
             <h1>
@@ -11,4 +8,3 @@ const Contact = () => {
     );
 };
 
-export default Contact;

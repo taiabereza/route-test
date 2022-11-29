@@ -1,6 +1,4 @@
-import React from "react";
-
-const Home = () => {
+export default function Home() {
     return (
         <div className="page">
             <h1>
@@ -10,4 +8,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+

@@ -1,6 +1,4 @@
-import React from "react";
-
-const NoPage = () => {
+export default function NoPage() {
     return (
         <div className="page">
             <h1>
@@ -10,4 +8,3 @@ const NoPage = () => {
     );
 };
 
-export default NoPage;
