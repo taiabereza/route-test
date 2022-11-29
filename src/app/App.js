@@ -22,6 +22,7 @@ function App() {
           <Route path='/route-test/contact' element={<Contact />} />
           <Route path='/route-test/layout' element={<Layout />} />
           <Route path='/route-test/*' element={<NoPage />} />
+          <Route path='/*' element={<NoPage />} />
         </Routes>
       </Router>
     </div>
